@@ -1,0 +1,45 @@
+[
+    {
+      "_id": "1",
+      "image": "https://www.foodandwine.com/thmb/lB5Mz2Nvamk6n4riuGyK6IzLmxY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/FAW-recipes-spicy-chicken-curry-step-06-5efb99e58907404282d0f07e7d5bcbc0.jpg",
+      "title": "Spicy Chicken Curry",
+      "material": "Chicken, Spices, Onion, Tomato, Garlic, Ginger",
+      "category": "Main Course"
+    },
+    {
+      "_id": "2",
+      "image": "https://t4.ftcdn.net/jpg/02/30/28/15/360_F_230281578_IvhUK0hfokUVae0XtklBaBPyRN2a10L9.jpg",
+      "title": "Vegan Buddha Bowl",
+      "material": "Quinoa, Chickpeas, Avocado, Spinach, Carrot, Tahini Sauce",
+      "category": "Healthy Food"
+    },
+    {
+      "_id": "3",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbvtcoETrzalXnZ9ZGzJlSg0THvoqmOiJZA&s",
+      "title": "Classic Margherita Pizza",
+      "material": "Flour, Tomato Sauce, Mozzarella Cheese, Basil",
+      "category": "Fast Food"
+    },
+    {
+      "_id": "4",
+      "image": "https://media.istockphoto.com/id/541279742/photo/blueberry-ricotta-pancakes.jpg?s=612x612&w=0&k=20&c=c4dsktA_M_EBDRsUVQw0lpSEbZhDfsVpEI2dDQzh4nU=",
+      "title": "Blueberry Pancakes",
+      "material": "Flour, Eggs, Milk, Blueberries, Maple Syrup",
+      "category": "Breakfast"
+    },
+    {
+      "_id": "5",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png",
+      "title": "Fresh Fruit Smoothie",
+      "material": "Banana, Mango, Strawberry, Orange Juice, Honey",
+      "category": "Beverage"
+    },
+    {
+      "_id": "6",
+      "image": "https://media.istockphoto.com/id/1214416414/photo/barbecued-salmon-fried-potatoes-and-vegetables-on-wooden-background.jpg?s=612x612&w=0&k=20&c=Y8RYbZFcvec-FXMMuoU-qkprC3TUFNiw3Ysoe8Drn6g=",
+      "title": "Grilled Salmon with Lemon",
+      "material": "Salmon, Lemon, Olive Oil, Garlic, Herbs",
+      "category": "Seafood"
+    }
+  ]
+  
