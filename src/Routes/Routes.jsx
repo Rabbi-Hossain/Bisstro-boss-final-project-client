@@ -2,14 +2,13 @@ import { createBrowserRouter } from "react-router";
 import Main from "../Main/Main";
 import Home from "../Pages/Home/Home/Home";
 import Menu from "../Pages/Menu/Menu/Menu";
-<<<<<<< HEAD
 import Order from "../Pages/Order/Order/Order";
 import Login from "../Pages/Login/Login/Login";
 import SignUp from "../Pages/SignUp/SignUp";
 import Secret from "../Pages/Shared/Secret/Secret";
 import PrivateRoute from "./PrivateRoute";
-=======
->>>>>>> dc53488c086e08d8c3e17d695d81a052889e3da9
+import Dashboard from "../Dashboard/Dashboard/Dashboard";
+import Cart from "../Dashboard/DashboardPage/Cart/Cart";
 
 export const router = createBrowserRouter([
     {
@@ -23,7 +22,6 @@ export const router = createBrowserRouter([
             {
                 path:'/menu',
                 element:<Menu></Menu>
-<<<<<<< HEAD
             },
             {
                 path:'/order/:category',
@@ -40,8 +38,16 @@ export const router = createBrowserRouter([
             {
                 path:'/secret',
                 element:<PrivateRoute><Secret></Secret></PrivateRoute>
-=======
->>>>>>> dc53488c086e08d8c3e17d695d81a052889e3da9
+            }
+        ]
+    },
+    {
+        path:'dashboard',
+        element:<Dashboard></Dashboard>,
+        children: [
+            {
+                path:'/dashboard/cart',
+                element:<Cart></Cart>
             }
         ]
     }

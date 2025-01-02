@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Helmet } from 'react-helmet-async';
 import Cover from '../../Shared/Cover/Cover';
 import menuImg from '../../../assets/menu/banner3.jpg'
@@ -39,13 +38,6 @@ const Menu = () => {
             <MenuCategory items={soup} title='soup' img={soupImg} ></MenuCategory>
             <MenuCategory items={drinks} title='drinks' img={drinksImg} ></MenuCategory>
             
-=======
-
-const Menu = () => {
-    return (
-        <div>
-            <h3>This is menu session</h3>
->>>>>>> dc53488c086e08d8c3e17d695d81a052889e3da9
         </div>
     );
 };
