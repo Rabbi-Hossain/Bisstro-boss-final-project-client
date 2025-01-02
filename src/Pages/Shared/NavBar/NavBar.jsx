@@ -20,6 +20,7 @@ const NavBar = () => {
     const navOptions = <>
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/menu'>Our Menu</Link></li>
+<<<<<<< HEAD
         <li><Link to='/order/salad'>Food Order</Link></li>
         <li><Link to='/secret'>Secret</Link></li>
         <li>
@@ -36,6 +37,9 @@ const NavBar = () => {
             :
             <><li><Link to='/login'>Login</Link></li></>}
 
+=======
+      
+>>>>>>> dc53488c086e08d8c3e17d695d81a052889e3da9
     </>
 
     return (
